@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from collections import Counter
 from model import *
 
-data = pd.read_csv('../watermelon3_0.csv')
+data = pd.read_csv('../dataset/watermelon3_0.csv')
 
 x_data = data.to_numpy()[:,7:9]
 y_data = (data.to_numpy()[:,9]=='是')*2-1
