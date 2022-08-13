@@ -143,4 +143,4 @@ cython_debug/
 dataset/
 
 # pycharm
-.idea
+.idea/
